@@ -84,10 +84,10 @@
 			e.y === null
 		)
 		{
-			throw new Error('QuadTree.Add: Element e must have x and y -properties!');
+			return false;
 		}
 
-		if(e.x < this.x || e.x > this.width || e.y < this.y || e.y > this.height)
+		if(!this.boundary.ContainsPoint({ x: e.x, y: e.y }))
 			return false;
 			
 		if(this.elements.length < this.capacity)
