@@ -26,3 +26,7 @@ Implementation based on [this wikipedia article](https://en.wikipedia.org/wiki/Q
 
 - QuadTree.Remove
 - (QuadTree.RemoveRange)
+
+## Tests
+
+![](https://github.com/ahvonenj/js-quadtree/blob/master/other/jasmine_report.PNG?raw=true)
