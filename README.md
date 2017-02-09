@@ -7,6 +7,8 @@ This is a QuadTree with a capacity of 10, so you will need to click add at least
 
 https://ahvonenj.github.io/js-quadtree/
 
+![](https://github.com/ahvonenj/js-quadtree/blob/master/other/quadtree_visualized.PNG?raw=true)
+
 ## AABB
 
 The QuadTree works with [Axis-Aligned Bounding Boxes](https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box), 
