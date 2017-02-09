@@ -10,6 +10,8 @@
 		this.y = this.center.y - this.halfDimension;
 		this.x2 = this.center.x + this.halfDimension;
 		this.y2 = this.center.y + this.halfDimension;
+
+		AABBVisualizer.Draw(this);
 	}
 
 	AABB.prototype.ContainsPoint = function(point)
