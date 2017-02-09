@@ -99,10 +99,10 @@
 		if(this.topLeft === null)
 			this.Subdivide();
 
-		if (this.topLeft.Insert(e)) return true;
-	    if (this.topRight.Insert(e)) return true;
-	    if (this.bottomLeft.Insert(e)) return true;
-	    if (this.bottomRight.Insert(e)) return true;
+		if(this.topLeft.Insert(e)) return true;
+		if(this.topRight.Insert(e)) return true;
+		if(this.bottomLeft.Insert(e)) return true;
+		if(this.bottomRight.Insert(e)) return true;
 		
 		return false;
 	}
@@ -133,12 +133,12 @@
 		if(this.topLeft == null)
 			return elementsInRange;
 
-	    elementsInRange.concat(this.topLeft.QueryRange(aabb_range));
-	    elementsInRange.concat(this.topRight.QueryRange(aabb_range));
-	    elementsInRange.concat(this.bottomLeft.QueryRange(aabb_range));
-	    elementsInRange.concat(this.bottomRight.QueryRange(aabb_range));
+		elementsInRange.concat(this.topLeft.QueryRange(aabb_range));
+		elementsInRange.concat(this.topRight.QueryRange(aabb_range));
+		elementsInRange.concat(this.bottomLeft.QueryRange(aabb_range));
+		elementsInRange.concat(this.bottomRight.QueryRange(aabb_range));
 
-	    return pointsInRange;
+		return pointsInRange;
 	}
 
 	if(typeof module !== 'undefined' && module.exports)
