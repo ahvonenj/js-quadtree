@@ -3,6 +3,8 @@ A QuadTree implementation in JavaScript
 
 ## Interactive QuadTree
 
+This is a QuadTree with a capacity of 10, so you will need to click add at least 10 points / quad to see the division on action.
+
 https://ahvonenj.github.io/js-quadtree/
 
 ## AABB
